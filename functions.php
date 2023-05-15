@@ -50,10 +50,10 @@ function createDataWithImage($table, $data, $image_database_name, $image_input_n
             $create = createData($table, $data);
             if($create){return true;}
         } else {
-            echo "Gagal! Ukuran file max 2mb";
+            echo "Failed! Maximum file size is 2mb.";
         }
     } else {
-        echo "Gagal! format yang diizinkan hanya jpg, jpeg, gif, png";
+        echo "Failed! Only allowed formats are jpg, jpeg, gif, png.";
     }
 }
 
@@ -143,10 +143,10 @@ function updateDataWithImage($table, $data, $condition, $image_database_name ,$i
                 $result = updateData($table, $data, $condition);
                 if($result){return true;}
             } else {
-                echo "Gagal! Ukuran file max 2mb";
+                echo "Failed! Maximum file size is 2mb.";
             }
         } else {
-            echo "Gagal! format yang diizinkan hanya jpg, jpeg, gif, png";
+            echo "Failed! Only allowed formats are jpg, jpeg, gif, png.";
         }
 
     } else {
