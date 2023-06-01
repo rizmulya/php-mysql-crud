@@ -1,10 +1,7 @@
 # php-mysql-crud
-
-A collection of PHP functions for connecting to a MySQL database and performing CRUD (Create, Read, Update, Delete) operations. These functions are designed to be flexible and easy to use, and they can be integrated into your PHP projects with minimal effort.
-
 ## Advantages:
 
-1. Easy to use: this script provides simple and easy-to-use functions to perform basic CRUD operations and image upload.
+1. Easy to use: this script provides simple and easy-to-use functions to perform basic CRUD (Create, Read, Update, Delete) operations and image upload.
 2. Reusable: the script's functions can be used in multiple projects, saving time and effort.
 3. Error handling: the script checks for connection errors and displays informative error messages to the user.
 
